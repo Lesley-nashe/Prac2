@@ -16,6 +16,7 @@ namespace Problems
                 string ans = "0:0";
                 return ans;
             }
+            if(input == null)return "Null Input";
             int len = input.Length;
             string[] words = input.Split(' ');
             int numwords = words.Length;
